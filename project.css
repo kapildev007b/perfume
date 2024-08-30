@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 15px;
+    color: rgb(94, 4, 4);
+}
+li,h1,ul{
+    display: inline;
+    
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: black;
+    
+}
+li:hover{
+    color: bisque;
+    cursor: pointer;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+}
+.searchbar{
+    padding: 35px;
+    text-align: center;
+}
+img{
+    height: 220px;
+    width: 220px;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+}
+.box:hover{
+    background-color: chartreuse;
+    color: crimson;
+    cursor: pointer;
+}
+.about{
+    margin-top: 30px;
+}
+.contact{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
